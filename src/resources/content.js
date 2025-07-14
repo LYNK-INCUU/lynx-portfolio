@@ -63,8 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Lyn, a software developer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Lyn, a passionate software developer with a strong interest in building efficient, scalable and user-friendly applications. 
     </>
   ),
 };
@@ -83,16 +82,15 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/lynx-stxrtouchvt",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        With 2 years of experience in the tech industry, I have worked on various projects, variorums from web development to mobile apps and backend systems. My expertise lies in JavaScript, CSS, HTML, Node.js, 
+        and I am always looking for new challenges to further develop my skills. After hours, I build my own projects.
       </>
     ),
   },
@@ -101,17 +99,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Lynx Productions",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Game Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            X
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            X
           </>,
         ],
         images: [
@@ -130,12 +126,10 @@ const about = {
         role: "Lead Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            X
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            X
           </>,
         ],
         images: [],
@@ -147,17 +141,17 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "MBO Utrecht",
         description: <>Studied software engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Software Developer",
+        description: <>Studied Developing apps and websites.</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
